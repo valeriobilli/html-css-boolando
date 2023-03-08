@@ -25,7 +25,7 @@
     top: 0;
     right: 0;
     left: 0; 
-    z-index: 3;
+    z-index: 4;
 }
 
 .fixedBottom {
@@ -33,6 +33,7 @@
     bottom: 0;
     right: 0;
     left: 0; 
+    z-index: 4;
 }
 
 .posRelative {
@@ -91,6 +92,29 @@ main {
 .picture {
     width: 450px;
     height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pictureB {
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.picture:hover {
+    display: none;
+}
+
+.productInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .brand {
@@ -123,6 +147,12 @@ main {
     position: absolute;
     top: 10px;
     right: 0px;
+    z-index: 2;
+}
+
+.heart:hover {
+    color: #ff0000;
+    cursor: pointer;
 }
 
 .sales {
@@ -136,6 +166,7 @@ main {
     position: absolute;
     bottom: 100px;
     left: 0px;
+    z-index: 2;
 }
 
 .sostenibilità {
@@ -149,6 +180,7 @@ main {
     position: absolute;
     bottom: 100px;
     left: 55px;
+    z-index: 2;
 }
 
 footer {
@@ -168,5 +200,5 @@ footer {
 .fa-brands .fa-square-pinterest{
     color: white;
     margin: 10px;
+    background-color: white;
 }
-
