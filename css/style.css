@@ -4,3 +4,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bgOrange {
+    background-color: #ff6900;
+}
+
+.bgBlack {
+    background-color: #1a1a1a; 
+}
+
+.flexbox {
+    display: flex;
+}
+
+.fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+}
+
+.fixedBottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+}
+
+header {
+    height: 70px; 
+}
+
+main {
+    
+}
+
+footer {
+    min-height: 110px;
+}
+
