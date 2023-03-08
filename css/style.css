@@ -78,9 +78,29 @@ main {
     margin-top: 50px;
 }
 
-.product {
+.picture {
     width: 450px;
     height: 650px;
+}
+
+.brand {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.product {
+    font-weight: bold;
+}
+
+.price {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
 }
 
 footer {
