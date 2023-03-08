@@ -74,9 +74,13 @@ main {
 .productBox {
     flex-direction: column;
     width: 450px;
-    height: 650px;
-    background-color: lightgrey;
+    height: 710px;
     margin-top: 50px;
+}
+
+.product {
+    width: 450px;
+    height: 650px;
 }
 
 footer {
