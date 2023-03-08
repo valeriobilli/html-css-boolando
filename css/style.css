@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CLASSI GENERICHE */
@@ -33,11 +34,34 @@
     left: 0; 
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* CLASSI ELEMENTI PAGINA */
 
 header {
     height: 70px;
+    padding-left: 260px;
+    padding-right: 260px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
+
+#logo {
+    width: 140px;
+    height: 35px;
+}
+
+.fa-regular, .fa-solid {
+    padding: 0.3em;
+} 
 
 main {
     flex-wrap: wrap;
