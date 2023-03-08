@@ -28,14 +28,6 @@
     z-index: 4;
 }
 
-.fixedBottom {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0; 
-    z-index: 4;
-}
-
 .posRelative {
     position: relative;
 }
