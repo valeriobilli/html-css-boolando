@@ -56,6 +56,7 @@ a:hover {
 
 /* CLASSI ELEMENTI PAGINA */
 
+/* HEADER */
 header {
     height: 70px;
     padding-left: 260px;
@@ -74,6 +75,7 @@ header {
     padding: 0.3em;
 } 
 
+/* MAIN */
 main {
     flex-wrap: wrap;
     width: 1410px;
@@ -183,6 +185,7 @@ main {
     z-index: 2;
 }
 
+/* FOOTER */
 footer {
     min-height: 110px;
     padding-left: 260px;
