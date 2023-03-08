@@ -120,6 +120,34 @@ main {
     right: 0px;
 }
 
+.sales {
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+
+.sostenibilità {
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: #008000;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+}
+
 footer {
     min-height: 110px;
 }
