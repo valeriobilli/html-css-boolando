@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* CLASSI GENERICHE */
+
 .bgOrange {
     background-color: #ff6900;
 }
@@ -31,12 +33,26 @@
     left: 0; 
 }
 
+/* CLASSI ELEMENTI PAGINA */
+
 header {
-    height: 70px; 
+    height: 70px;
 }
 
 main {
-    
+    flex-wrap: wrap;
+    width: 1410px;
+    margin: 70px auto 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productBox {
+    flex-direction: column;
+    width: 450px;
+    height: 650px;
+    background-color: lightgrey;
+    margin-top: 50px;
 }
 
 footer {
